@@ -1,0 +1,2 @@
+# rust_web_service_naive_example0
+rust_web_service_naive_example0

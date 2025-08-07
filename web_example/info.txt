@@ -1,0 +1,19 @@
+https://github.com/LinkedInLearning/creating-high-performance-web-services-with-async-rust-2710094/branches/all
+https://github.com/LinkedInLearning/creating-high-performance-web-services-with-async-rust-2710094/tree/05_02b
+
+https://github.com/actix/examples/blob/master/databases/sqlite/src/db.rs
+
+  -v -vvv -V -Lk -I -H --insecure
+  -H "Authorization: Basic {key}"
+curl -v localhost:8080/api-key
+curl -v QjQOffdYTxwIvOKW2x2Sx37ZiIvDXsxjzJnvGCXH@localhost:8080/api/to-fahrenheit/25
+curl -vvv QjQOffdYTxwIvOKW2x2Sx37ZiIvDXsxjzJnvGCXH@localhost:8080/api/to-fahrenheit/25
+
+cargo fmt
+rustfmt lib.rs main.rs
+rustfmt --edition=2021 src/lib.rs
+
+cargo run
+cargo test
+
+rustfmt --edition=2021 src/main.rs src/lib.rs src/auth.rs src/db.rs tests/example_test.rs

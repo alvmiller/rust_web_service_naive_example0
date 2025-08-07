@@ -1,0 +1,13 @@
+[Unit]
+Description=Actix Web Service
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/hello_actix
+Restart=always
+User=service_actix
+Group=service_actix
+Environment="RUST_LOG=info"
+
+[Install]
+WantedBy=multi-user.target

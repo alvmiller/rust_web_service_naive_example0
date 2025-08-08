@@ -6,8 +6,8 @@ https://github.com/actix/examples/blob/master/databases/sqlite/src/db.rs
   -v -vvv -V -Lk -I -H --insecure
   -H "Authorization: Basic {key}"
 curl -v localhost:8080/api-key
-curl -v QjQOffdYTxwIvOKW2x2Sx37ZiIvDXsxjzJnvGCXH@localhost:8080/api/to-fahrenheit/25
-curl -vvv QjQOffdYTxwIvOKW2x2Sx37ZiIvDXsxjzJnvGCXH@localhost:8080/api/to-fahrenheit/25
+curl -v Yl46ckqEBXUloD82V0N3LTcDr5Q0tGUAd4CT6hvb@localhost:8080/api/change-sign/4
+curl -vvv Yl46ckqEBXUloD82V0N3LTcDr5Q0tGUAd4CT6hvb@localhost:8080/api/change-sign/4
 
 cargo fmt
 rustfmt lib.rs main.rs
